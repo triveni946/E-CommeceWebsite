@@ -1,0 +1,16 @@
+<html>
+   <body>
+      <input type="text" name="name" id="name" required="required"                                    aria-required="true" pattern="[a-z]{1,5}" onchange="func()">
+      <script>
+       function func()
+       {
+        var namdata=document.form1.name.value;
+         if(namdata.match("[a-z]{1,5}"))
+        {
+         document.getElementById("but1").disabled=false;
+        }
+        }
+        </script>
+        <
+  </body>
+</html>

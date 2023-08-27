@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<style type="text/css">
+		nav {
+  background-color: #333;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.menu li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .menu li {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+	</style>
+</head>
+<body>
+<nav>
+  <div class="container">
+    <ul class="menu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+<script>
+	const menuIcon = document.querySelector(".menu-icon");
+const menu = document.querySelector(".menu");
+
+menuIcon.addEventListener("click", () => {
+  menu.classList.toggle("show");
+});
+	</script>
+</body>
+</html>

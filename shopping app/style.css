@@ -1,0 +1,42 @@
+/* Webpixels CSS */
+/* Utility and component-centric Design System based on Bootstrap for fast, responsive UI development */
+/* URL: https://github.com/webpixels/css */
+
+@import url(https://unpkg.com/@webpixels/css@1.0/dist/index.css);
+.big-text{
+  font-size: 52px;
+  margin: 20px,0px;
+  color:darkgrey;
+}
+a.btn{
+ margin:30px,10px;
+ width: 100px;
+ padding: 10px;
+ border-radius: 20px;
+}
+a.btn-first{
+	background-color: darkblue;
+	color: white;
+}
+a.btn-second{
+	background-color:transparent;
+	color: blue;
+	border: 1px solid royalblue;
+}
+a.btn:hover{
+ background-color: darkblue;
+ border: none;
+ color: white;
+ box-shadow: 5xp, 5px, 10px,0px;
+ transition:0.5s ;
+}
+a.btn-third{
+  background-color:transparent;
+  color: blue;
+  border: 1px solid royalblue;
+   border-radius: 10px;
+   
+}
+.banner-info,.banner-img{
+	margin: 30px,0px;
+}
